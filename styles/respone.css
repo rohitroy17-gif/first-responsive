@@ -157,3 +157,104 @@ header{
     padding-top: 100px;
     background-color: beige;
 }
+
+
+@media (max-width: 768px) {
+  .items {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+  }
+
+  .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .banner-1, .banner-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .rob {
+    margin: 30px 0;
+    margin-left: 0;
+  }
+  .rob-2 {
+    width: 100%;
+  }
+  .rob-text {
+    width: 100%;
+    height: auto;
+  }
+  .ban-img-1, .ban-img-2 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .img, .img-4 {
+    width: 100%;
+    height: auto;
+  }
+  .sec-2 {
+    margin: 30px 0;
+    margin-left: 0;
+  }
+  .ab-text {
+    width: 100%;
+    height: auto;
+  }
+  .project {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .border {
+    width: 100%;
+    max-width: 370px;
+  }
+  .pro {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .display {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner {
+    width: 90%;
+    height: auto;
+    margin: 50px auto 0;
+    padding: 20px;
+  }
+
+  .ban-content {
+    padding-top: 0;
+  }
+
+  .icons {
+    justify-content: center;
+    margin-left: 0;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .foot {
+    padding: 50px 20px;
+  }
+
+  .font {
+    font-size: 36px;
+  }
+
+  .btn-1 {
+    width: 140px;
+    height: 36px;
+  }
+}
